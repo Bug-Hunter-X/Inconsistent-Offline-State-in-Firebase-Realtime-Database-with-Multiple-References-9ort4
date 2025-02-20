@@ -1,0 +1,1 @@
+The Firebase Realtime Database sometimes throws a `DatabaseError: Client is offline` error even when the client is clearly connected to the internet. This is usually observed when using multiple database references concurrently.  Each reference might manage its own connection state, leading to inconsistencies and unexpected offline errors.
